@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<script src="index.js" async></script>
 		<title>Email Newsletter Clone</title>
 	</head>
 	<body>
@@ -21,7 +22,7 @@
 						<p class="text-center text-sm max-w-xs md:text-left">
 							Eat better and exercise better. Sign up for the Diet&Fitness newsletter.
 						</p>
-						<form class="flex flex-col space-y-4 md:flex-row md:items-center md:justify-center">
+						<form id="form" class="flex flex-col space-y-4 md:flex-row md:items-center md:justify-center">
 							<input
 								type="email"
 								placeholder="Enter your email address"
@@ -34,6 +35,7 @@
 								Subscribe
 							</button>
 						</form>
+						<p id="output" class="text-xs">Lorem ipsum dolor sit amet.</p>
 					</div>
 				</div>
 			</div>
